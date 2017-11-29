@@ -54,38 +54,36 @@ export class CitiesContainer extends Component {
       name: this.props.name
     };
     this.setState({
-      cityList: this.state.cityList.concat(data)
+      cityList: this.state.cityList.concat(data),
+      name: ''
     });
   };
 
   render() {
     let cities = this.state.cityList;
-    let searchString = this.props.searchString.trim().toLowerCase();
-
-    if(searchString.length > 0){
-      cities = cities.filter((city) => {
-        return (
-          city.name.toLowerCase().match( searchString )
-        );
-      });
-    }
+    let filterLocation = this.props.filterLocation.trim().toLowerCase();
+    if (filterLocation.length > 0) {
+      cities = cities.filter(city =>
+        city.name.toLowerCase().match( filterLocation )
+      );
+    };
 
     const { name } = this.props;
     const isEnabled =
       name.length > 0;
 
+    cities = cities.map((city, index) =>
+      <City key={city.id}
+        cityName = {city.name}
+        handleClick={this.passCityName.bind(this, city.name)}
+        removeCity={this.removeCity.bind(this, index)}
+      />
+    );
+
     return (
       <div>
         <ul>
-          { cities.map((city, index) => {
-            return (
-              <City key={city.id}
-                cityName = {city.name}
-                handleClick={this.passCityName.bind(this, city.name)}
-                removeCity={this.removeCity.bind(this, index)}
-              />
-            )
-          })}
+          { cities }
         </ul>
         <div className="addNewCity" >
           <Button

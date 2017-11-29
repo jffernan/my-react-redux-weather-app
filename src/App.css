@@ -1,0 +1,276 @@
+.page-title {
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+.body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #222;
+  padding:60px;
+  text-align: center;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  display:block;
+ }
+
+.page-title {
+  text-align: center;
+  color: green;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.page-text {
+  text-align: center;
+  color: #0059b3;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color:  #0059b3;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color:  green;
+  font-weight: bold;
+}
+
+h4 {
+  text-align: center;
+  color:  #0059b3;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  color:  #0059b3;
+}
+
+Form {
+  text-align: center;
+  line-height: 25px;
+  width: 100%;
+}
+
+.menu {
+  margin: auto;
+}
+
+#nav {
+  width:415px;
+  margin:0 auto;
+  list-style:none;
+  }
+#nav li {
+  float:left;
+}
+#nav a {
+  display:block;
+  text-align:center;
+  width:150px; /* fixed width */
+  text-decoration:none;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.col-md-12 column {
+  text-align:center;
+}
+
+.col-xs-4 column form {
+   margin:auto;
+}
+
+.col-md-12 column form {
+   margin:auto;
+}
+
+input {
+  text-align: center;
+  color: black;
+}
+
+Button {
+  border-radius: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button-text {
+  font-size: 12px;
+  text-align: center;
+}
+
+.addNewCity {
+  border-radius: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display:block; /* change this from inline-block */
+  width:20%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+  position:relative;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+input[type=text] {
+  background-color: #87CEFA;
+  text-align: center;
+  font: inherit;
+  border: 2px solid;
+  border-color: #87cefa;
+  padding: 13px 12px;
+  font-size: 14px;
+  box-shadow: 0 1px 1px;
+  border-width: 2px;
+  outline: none;
+  display: block;
+  color: black;
+  margin: auto;
+  border-radius: 4px;
+}
+
+input:focus {
+  background-color: #98FB98;
+}
+
+.wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.loc-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.loc {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+  text-transform: capitalize;
+}
+
+.gloc {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: green;
+}
+
+.temp-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.temp {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.cond-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.cond {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+  text-transform: capitalize;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+.temp-symbol {
+  position: absolute;
+  font-size: 9px;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-top: 0px;
+}
+
+.temp-date {
+  position: absolute;
+  bottom: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.outputDisplay {
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: relative;
+  width: 340px;
+  line-height: 15px;
+  padding: 6px 6px;
+}
+
+.cityList{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  height:32px;
+  font-weight: bold;
+}
+
+.cityList li{
+  width: 140px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin-right: 38px;
+  border: 2px solid #0059b3;
+  border-radius: 4px;
+  padding: 3px 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cityList li:hover{
+  background-color: #98FB98;
+}
+
+.deleteButton {
+  visibility: hidden;
+  display: inline-block;
+  margin-right: 0px;
+  font-size: 14px;
+  cursor: pointer;
+  color: black;
+}
+
+.cityList:hover .deleteButton {
+  visibility: visible;
+}

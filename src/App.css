@@ -12,35 +12,12 @@
   text-align: center;
 }
 
-.App-footer {
-  visibility: visible;
-  background-color: #0059b3;
-  height: 100px;
-  padding: 20px 0px 80px 50px;
-  color: black;
-  margin-top: 30px;
+h3.github {
+  color: #0059b3;
   text-align: center;
+  font-weight: bold;
+  font-size: 14px;
 }
-
-.App-code {
-  visibility: visible;
-  text-align: center;
-  font-size: 32px;
-}
-
-a {
-  visibility: visible;
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  padding: 25px 50px 0px 0px;
-}
-
-#map {
-  height: 400px;
-  width: 100%;
-  display:block;
- }
 
 .page-title {
   text-align: center;
@@ -197,13 +174,6 @@ input:focus {
   font-weight: bold;
   margin-left: 8px;
   text-transform: capitalize;
-}
-
-.gloc {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: capitalize;
-  color: green;
 }
 
 .temp-wrapper {

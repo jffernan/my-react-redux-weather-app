@@ -45,6 +45,7 @@ class WeatherApp extends Component {
 
     return (
       <div className = "weatherApp">
+        <h1>Welcome To My React Redux Weather App</h1>
         <LocationForm
           fetchDataSubmit = { this.fetchData}
           changeLocationSubmit = { this.changeLocation }
@@ -59,6 +60,13 @@ class WeatherApp extends Component {
           tempOutput = { currentTemp }
           condOutput = { currentCond }
         />
+        <h3 className="github">
+          <a target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/jffernan/my-react-weather-app">
+            'Click' link to view my code on GitHub.
+          </a>
+        </h3>
       </div>
     );
   }

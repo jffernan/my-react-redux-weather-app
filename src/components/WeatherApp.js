@@ -19,7 +19,7 @@ class WeatherApp extends Component {
 
     let newLocation = this.props.location || location
     let encodedLocation = encodeURIComponent(newLocation);
-    let urlPrefix = 'http://api.openweathermap.org/data/2.5/forecast?q=';
+    let urlPrefix = 'https://api.openweathermap.org/data/2.5/forecast?q=';
     let urlSuffix = '&APPID=eec418ceb1be72168ff8ff738033e935&units=imperial';
     let url = urlPrefix + encodedLocation + urlSuffix;
     this.props.dispatch(fetchData(url));//call function thunked action

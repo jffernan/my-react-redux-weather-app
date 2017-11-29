@@ -2,7 +2,9 @@
 
 Welcome to My React Redux Weather App, where you can fetch the current weather by entering a city or selecting from a sample list of provided cities.
 
-Video demo at: https://youtu.be/WA0c3tG6zGo
+Demo at: https://jffernan.github.io/my-react-redux-weather-app/
+Video at: https://youtu.be/WA0c3tG6zGo
+Original Master Repo: https://github.com/jffernan/my-react-weather-app
 
 View my blog about the development of my app at: https://github.com/jffernan/jffernan.github.io/blob/master/_posts/2017-10-13-project_5_blog_react-redux-app.markdown
 

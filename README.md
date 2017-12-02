@@ -12,7 +12,7 @@ The app was created with create-react-app.  See the [full create-react-app guide
 
 ## Installation
 
-To use this app, first clone from GitHub via 'git clone git@github.com:jffernan/my-react-redux-weather-app.git' at your terminal, 'cd' to the new directory, then run ‘npm install’, and last, run ‘npm start' to launch your http server.  Last, follow the provided http link to open my app in your browser.
+To use this app, first clone from GitHub via 'git clone git@github.com:jffernan/my-react-redux-weather-app.git' at your terminal, 'cd' to the new directory, then run ‘npm install’, and last, run ‘npm start' to launch your http server. 
 
 Note: Weather data fetched from OpenWeatherMap API. When trying my app, you can use my API Key or sign-up for a FREE API key at https://openweathermap.org/.
 

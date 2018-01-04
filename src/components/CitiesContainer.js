@@ -18,7 +18,8 @@ export class CitiesContainer extends Component {
       {id: 4, name: "Houston"},
       {id: 2, name: "Los Angeles"},
       {id: 1, name: "New York"},
-      {id: 5, name: "Phoenix"}
+      {id: 5, name: "Phoenix"},
+      {id: 6, name: "Seattle"}
     ];
     this.setState({
       cityList: cities

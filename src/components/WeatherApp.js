@@ -44,7 +44,7 @@ class WeatherApp extends Component {
     }
 
     return (
-      <div className = "weatherApp">
+      <div className = "weatherApp" style={{textAlign: "center"}}>
         <h1>Welcome To My React Redux Weather App</h1>
         <LocationForm
           fetchDataSubmit = { this.fetchData}

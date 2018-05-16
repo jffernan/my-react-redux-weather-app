@@ -8,6 +8,8 @@ Original Master Repo: https://github.com/jffernan/my-react-weather-app
 
 View my blog about the development of my app at: https://github.com/jffernan/jffernan.github.io/blob/master/_posts/2017-10-13-project_5_blog_react-redux-app.markdown
 
+Contact: James Fernandez | Email: jffernan@comcast.net | Phone: (206) 658-5295
+
 The app was created with create-react-app.  See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).  Thank you for using my app.
 
 ## Installation

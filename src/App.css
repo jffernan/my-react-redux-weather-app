@@ -111,21 +111,17 @@ Button {
   transition: all 0.5s;
   cursor: pointer;
 }
-
+/*
 .button-text {
   font-size: 12px;
   text-align: center;
 }
-
+*/
 .addNewCity {
   border-radius: 20px;
   transition: all 0.5s;
   cursor: pointer;
-  display:block; /* change this from inline-block */
-  width:20%; /* setting the width */
-  margin:0 auto; /* this will center  it */
-  position:relative;
-  text-align: center;
+  
 }
 
 label {
